@@ -1,0 +1,18 @@
+.startPage{
+    height: 80%;
+    width: 80%;
+    background-image: url(../../../../images/startPageImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: .6;
+
+    &__slogan{ 
+        padding: 1px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: #b9d4f1;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+}

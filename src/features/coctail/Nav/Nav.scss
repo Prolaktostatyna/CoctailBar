@@ -1,0 +1,12 @@
+.nav {
+    background-color: #21273d;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @media (min-width:670px) {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+}

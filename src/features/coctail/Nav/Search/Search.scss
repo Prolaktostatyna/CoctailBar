@@ -1,0 +1,44 @@
+.search {
+
+    &__form {
+        padding: 0;
+        background-color: #21273d;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        &--input {
+            padding-left: 10px;
+            margin-right: 5px;
+            height: 28px;
+            width: 40%;
+            border: 1px solid white;
+            background-color: white;
+        }
+
+        &--btn {
+            height: 32px;
+            width: 100px;
+            background-color: #b9d4f1;
+            border: 1px solid #b9d4f1;
+            letter-spacing: 2px;
+            font-weight: lighter;
+            text-transform: uppercase;
+            color: white;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        &--btn:hover {
+            background-color: white;
+            border: 1px solid white;
+            color: #21273d;
+        }    
+    }
+    &__noDrink{
+            color: #b9d4f1;
+            margin-top: 1px;
+            font-size: 12px;
+    }
+}
+

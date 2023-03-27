@@ -1,0 +1,60 @@
+.coctails {
+    margin-top: 5px;
+    padding: 5px;
+    width: calc(115px + 40vw);
+    background-color: #b9d4f1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+    &__img{
+        width: 100px;
+    }
+    &__name{
+        width: 100px;
+        color: #21273d;
+    }
+}
+
+.customModal {
+    background:  #b9d4f1 !important;
+    max-width: 500px;
+}
+
+.modalImg{
+    width: 90%;
+    height: 50%;
+}
+
+.modalh2{
+    margin: 5px ;
+    color: #21273d;
+    text-align: center;
+}
+
+.modalDiv{
+    margin: 5px;
+    color: #21273d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+
+        &--p{
+            margin: 0;
+        }
+    }
+}
+.modalp{
+    margin: 5px;
+    width: 90%;
+    color: #21273d;
+    text-align: justify;
+}
